@@ -3,7 +3,7 @@
 
 set background=dark
 hi clear
-let g:colors_name = "vsdark"
+let g:colors_name="vsdark"
 
 hi Normal guifg=#D4D4D4 guibg=#1E1E1E
 hi Comment guifg=#608b4e gui=italic
@@ -27,6 +27,7 @@ hi! link Statement Constant
 hi! link Type Constant
 hi! link Special Constant
 " PHP
+let php_alt_comparisons=0
 hi! link phpMemberSelector Normal
 hi! link phpComparison Normal
 " VIM
