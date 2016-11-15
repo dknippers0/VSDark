@@ -18,6 +18,7 @@ hi! link MatchParen Normal
 hi! link Identifier Normal
 hi! link Operator Normal
 hi! link Special Normal
+hi! link Delimiter Normal
 hi! link Define Constant
 hi! link Include Constant
 hi! link PreCondit Constant
