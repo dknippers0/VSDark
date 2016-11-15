@@ -25,6 +25,7 @@ hi! link PreCondit Constant
 hi! link Macro Constant
 hi! link Statement Constant
 hi! link Type Constant
+hi! link Special Constant
 " PHP
 hi! link phpMemberSelector Normal
 hi! link phpComparison Normal
@@ -32,7 +33,6 @@ hi! link phpComparison Normal
 hi! link helpHeader Constant
 hi! link helpHyperTextEntry Constant
 hi! link helpHyperTextJump Constant
-hi! link helpSpecial Constant
 hi helpNote guifg=#D4D4D4 gui=italic
 hi! link helpURL Constant
 hi! link vimOption Normal
