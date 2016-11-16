@@ -11,6 +11,7 @@ hi Constant guifg=#569cd6
 hi String guifg=#ce9178
 hi Number guifg=#b5cea8
 hi Error guibg=darkred
+hi! link Function Normal
 hi! link PreProc Comment
 hi! link Todo Comment
 hi! link Underlined Normal
