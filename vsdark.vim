@@ -15,7 +15,7 @@ hi! link PreProc Comment
 hi! link Todo Comment
 hi! link Underlined Normal
 hi! link MatchParen Normal
-hi! link Identifier Normal
+hi Identifier guifg=white
 hi! link Operator Normal
 hi! link Special Normal
 hi! link Delimiter Normal
@@ -30,6 +30,7 @@ hi! link Special Constant
 let php_alt_comparisons=0
 hi! link phpMemberSelector Normal
 hi! link phpComparison Normal
+hi! link phpVarSelector Identifier
 " VIM
 hi! link Title Constant
 hi LineNr guifg=#505050
@@ -53,10 +54,9 @@ hi! link helpHyperTextEntry Constant
 hi! link helpHyperTextJump Constant
 hi helpNote guifg=#D4D4D4 gui=italic
 hi! link helpURL Constant
-hi! link vimOption Normal
+hi! link vimOption Identifier
 hi! link Directory Constant
 hi! link NonText LineNr
 hi! link vimHiTerm Normal
 hi! link vimGroup Normal
 hi! link vimHiAttrib Normal
-
