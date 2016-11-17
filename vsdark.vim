@@ -30,7 +30,6 @@ hi! link Special Constant
 " PHP
 let php_alt_comparisons=0
 hi! link phpMemberSelector Normal
-hi! link phpComparison Normal
 hi! link phpVarSelector Identifier
 " VIM
 hi! link Title Constant
