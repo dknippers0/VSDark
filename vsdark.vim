@@ -1,5 +1,7 @@
 " Visual Studio-like Dark Theme by dknippers0
 " Version 0.2
+" Options:
+" vsdark_alt_statusbar=1 - Enable alternative blue Statusbar style
 
 set background=dark
 hi clear
@@ -41,7 +43,11 @@ hi clear FoldColumn
 hi! link SignColumn FoldColumn
 hi clear StatusLine
 hi clear StatusLineNC
-hi StatusLine guifg=#D4D4D4 guibg=#404040
+if exists("vsdark_alt_statusbar")
+	hi StatusLine guifg=white guibg=#007ACC gui=bold
+else
+	hi StatusLine guifg=#D4D4D4 guibg=#404040
+endif
 hi StatusLineNC guifg=#D4D4D4 guibg=#2F2F2F
 hi clear VertSplit
 hi VertSplit guifg=#2F2F2F guibg=#2F2F2F
